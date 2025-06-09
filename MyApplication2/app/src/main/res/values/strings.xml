@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username">Username</string>
+    <string name="login">LOGIN</string>
+    <string name="quenmatkhau">Quên mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="username1">Username</string>
+    <string name="dangky">Đăng Ký</string>
+    <string name="x_c_nh_n">Xác Nhận</string>
+    <string name="x_c_nh_n_kh_ng_ph_i_m_y">Xác Nhận Không Phải Máy</string>
+    <string name="qu_n_m_t_kh_u">Quên mật khẩu</string>
+</resources>

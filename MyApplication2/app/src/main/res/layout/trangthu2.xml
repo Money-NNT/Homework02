@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_6bee8523f8bc4578eafe71f1de500ef"
+    >
+
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/email"
+        android:textColor="#858585"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.12"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextNumberPassword3"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textColor="#8D6E63"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        tools:ignore="LabelFor,TextContrastCheck"
+        tools:text="Pass1434" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="140dp"
+        android:backgroundTint="#00BCD4"
+        android:fontFamily="sans-serif"
+        android:text="Đăng Ký"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#455A64"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword3"
+        app:layout_constraintVertical_bias="0.144"
+        tools:ignore="HardcodedText,UnknownId,VisualLintButtonSize,DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="40dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/username1"
+        android:textColor="#858585"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/dangky"
+        android:textAlignment="center"
+        android:textColor="#445963"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="UnknownIdInLayout" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="201dp"
+        android:layout_height="198dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_704787461046dd8db4e9d136afa8c49_removebg_preview" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
